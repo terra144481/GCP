@@ -21,6 +21,8 @@ $ minikube start --driver=virtualbox --nodes=3 --disk-size=10g \ --cpus=2 --memo
 $ minikube start --driver=docker --cpus=6 --memory=8g \ --kubernetes-version="1.24.4" -p largedock
 
 $ minikube start --driver=virtualbox -n 3 --container-runtime=containerd \ --cni=calico -p minibox
+
+minikube start --driver=virtualbox -n 2 --no-vtx-check --container-runtime=containerd \ --cni=calico
 ```
 
 
