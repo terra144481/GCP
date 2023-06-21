@@ -1,13 +1,13 @@
 Install minikube- https://minikube.sigs.k8s.io/docs/start/
 
-Start minikube - `minikube start`
-Download kubectl - `minikube kubectl -- get po -A`
-Kubernetes Dashboard - `minikube dashboard`
-View cluster status `minikube status`
-Stop cluster `minikube stop`
-Delete cluster `minikube delete`
-View profile list `minikube profile list`
-"
+Start minikube - `minikube start`  
+Download kubectl - `minikube kubectl -- get po -A`  
+Kubernetes Dashboard - `minikube dashboard`  
+View cluster status `minikube status`  
+Stop cluster `minikube stop`  
+Delete cluster `minikube delete`  
+View profile list `minikube profile list`  
+```
 $ minikube start --kubernetes-version=v1.23.3 \
   --driver=podman --profile minipod
 
@@ -23,4 +23,4 @@ $ minikube start --driver=docker --cpus=6 --memory=8g \
 
 $ minikube start --driver=virtualbox -n 3 --container-runtime=containerd \
   --cni=calico -p minibox
-"
+```
