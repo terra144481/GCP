@@ -1,0 +1,5 @@
+Install minikube- https://minikube.sigs.k8s.io/docs/start/
+
+Start minikube - `minikube start`
+Download kubectl - `minikube kubectl -- get po -A`
+Kubernetes Dashboard - `minikube dashboard`
