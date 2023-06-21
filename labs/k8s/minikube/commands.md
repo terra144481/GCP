@@ -23,6 +23,8 @@ $ minikube start --driver=docker --cpus=6 --memory=8g \ --kubernetes-version="1.
 $ minikube start --driver=virtualbox -n 3 --container-runtime=containerd \ --cni=calico -p minibox
 
 minikube start --driver=virtualbox -n 2 --no-vtx-check --container-runtime=containerd \ --cni=calico
+
+minikube start --driver=virtualbox -n 2 --kubernetes-version=v1.27.2  --container-runtime=containerd --no-vtx-check \ --cni=calico -p minikube
 ```
 
 

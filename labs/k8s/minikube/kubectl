@@ -2,4 +2,6 @@ Install kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl-windows/
 Проверка установки:
 kubectl version --client
 
-View config - `kubectl config view`
+View config  - `kubectl config view`
+Info claster - `kubectl cluster-info`
+View nodes   - `kubectl get nodes`
