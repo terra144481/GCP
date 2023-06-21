@@ -7,6 +7,7 @@ View cluster status `minikube status`
 Stop cluster `minikube stop`  
 Delete cluster `minikube delete`  
 View profile list `minikube profile list`  
+Exsample with key -p (профіль) - `minikube stop -p minibox`
 
 ```
 $ minikube start --kubernetes-version=v1.23.3 \
@@ -25,3 +26,5 @@ $ minikube start --driver=docker --cpus=6 --memory=8g \
 $ minikube start --driver=virtualbox -n 3 --container-runtime=containerd \
   --cni=calico -p minibox
 ```
+
+
