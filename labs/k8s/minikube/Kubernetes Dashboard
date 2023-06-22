@@ -1,0 +1,7 @@
+Work with dashboard (webinterface)
+Check addons - `$ minikube addons list`
+On metrics - `$ minikube addons enable metrics-server`
+On dashboard `$ minikube addons enable dashboard`
+View addons `$ minikube addons list`
+Run dashboard `$ minikube dashboard`
+Check running dashboard - `minikube dashboard --url` 
