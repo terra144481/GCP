@@ -1,0 +1,2 @@
+View namespaces(подкластеры)  `kubectl get namespaces`
+Create new namespace          `kubectl create namespace new-namespace-name` 
