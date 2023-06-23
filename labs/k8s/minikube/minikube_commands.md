@@ -25,6 +25,10 @@ $ minikube start --driver=virtualbox -n 3 --container-runtime=containerd \ --cni
 minikube start --driver=virtualbox -n 2 --no-vtx-check --container-runtime=containerd \ --cni=calico
 
 minikube start --driver=virtualbox -n 2 --kubernetes-version=v1.27.2  --container-runtime=containerd --no-vtx-check \ --cni=calico -p minikube
+
+minikube start --no-vtx-check
+
+minikube start --driver=virtualbox -n 2 --kubernetes-version=stable --no-vtx-check  -p test
 ```
 
 
