@@ -12,5 +12,8 @@ Create new namespace          `kubectl create namespace new-namespace-name`
 
 
 Create PODS:
-`kubectl apply -f nginx.yaml`
+            `kubectl apply -f nginx.yaml`
 update pod `kubectl replace --force -f nginx.yaml`
+ подробно  `kubectl get pods -o wide`
+ delete pod `kubectl delete -f nginx.yaml`
+            `kubectl delete pods secondrun`
