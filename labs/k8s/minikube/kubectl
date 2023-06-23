@@ -9,3 +9,8 @@ View nodes   - `kubectl get nodes`
 Elements : 
 View namespaces(подкластеры)  `kubectl get namespaces`
 Create new namespace          `kubectl create namespace new-namespace-name` 
+
+
+Create PODS:
+`kubectl apply -f nginx.yaml`
+update pod `kubectl replace --force -f nginx.yaml`
