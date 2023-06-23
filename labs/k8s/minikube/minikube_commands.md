@@ -9,6 +9,11 @@ Delete cluster        - `minikube delete`
 View profile list     - `minikube profile list`  
 Exsample with key -p (профіль) - `minikube stop -p minibox`
 
+
+
+
+
+
 "Способы конфигурирования minikube"  
 ```
 $ minikube start --kubernetes-version=v1.23.3 \

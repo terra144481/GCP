@@ -5,3 +5,7 @@ kubectl version --client
 View config  - `kubectl config view`
 Info claster - `kubectl cluster-info`
 View nodes   - `kubectl get nodes`
+
+Elements : 
+View namespaces(подкластеры)  `kubectl get namespaces`
+Create new namespace          `kubectl create namespace new-namespace-name` 
