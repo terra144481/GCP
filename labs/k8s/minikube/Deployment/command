@@ -1,0 +1,8 @@
+kubectl create -f webserver.yaml
+kubectl get replicasets
+kubectl get pods
+
+
+або 
+
+kubectl create deployment webserver --image=nginx:alpine --replicas=3 --port=80
