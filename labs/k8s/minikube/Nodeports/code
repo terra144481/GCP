@@ -5,3 +5,7 @@ kubectl create -f webserver-svc.yaml
 или
  
  kubectl expose deployment webserver --name=web-service --type=NodePort
+
+ Доступ до застосунку
+ minikube ip 
+ minikube service web-service --url

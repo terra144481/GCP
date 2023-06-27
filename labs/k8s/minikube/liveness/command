@@ -1,0 +1,5 @@
+kubectl create -f probe.yaml
+
+
+Liveness перевіряє стан застосунку, і якщо перевірка виявить помилки, kubelet автоматично перезавантажить відповідний контейнер.
+kubectl get pod liveness-exec -w
