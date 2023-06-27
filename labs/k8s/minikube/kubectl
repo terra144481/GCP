@@ -25,3 +25,6 @@ update pod `kubectl replace --force -f nginx.yaml`
  Обрати поди з певною міткою 'kubectl get pods -l k8s-app=web-dash'
  Видалення розгортання 'kubectl delete deployments web-dash'
 
+ Розгортання застосунку з використанням інтерфейсу командного рядка
+ створення розгортання з файлу `kubectl create -f webserver.yaml`
+
