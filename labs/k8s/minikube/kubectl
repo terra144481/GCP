@@ -12,8 +12,16 @@ Create new namespace          `kubectl create namespace new-namespace-name`
 
 
 Create PODS:
-            `kubectl apply -f nginx.yaml`
+Створення розгортання з файлу маныфеста `kubectl apply -f nginx.yaml`
 update pod `kubectl replace --force -f nginx.yaml`
  подробно  `kubectl get pods -o wide`
  delete pod `kubectl delete -f nginx.yaml`
             `kubectl delete pods secondrun`
+
+перелік розгортань  'kubectl get deployments'
+                     'kubectl get replicasets'
+ Перегляд деталей пода 'kubectl describe pod web-dash-fc4bf86d7-gxhc5'
+ Вибір подів по мітках'kubectl get pods -L k8s-app,label2'
+ Обрати поди з певною міткою 'kubectl get pods -l k8s-app=web-dash'
+ Видалення розгортання 'kubectl delete deployments web-dash'
+
